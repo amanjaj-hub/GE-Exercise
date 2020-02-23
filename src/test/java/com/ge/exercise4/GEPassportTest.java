@@ -21,6 +21,6 @@ public class GEPassportTest {
 
     @Test
     public void thrustToWeightRatioTest() {
-        assertEquals(testEngine.takeoffThrust / testEngine.wetWeight, testEngine.thrustToWeightRatio(), 0.01);
+        assertEquals(testEngine.takeoffThrust / testEngine.dryWeight, testEngine.thrustToWeightRatio(), 0.01);
     }
 }
